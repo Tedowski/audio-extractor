@@ -1,0 +1,10 @@
+node_modules/
+src/
+.git/
+.github/
+*.md
+.env
+.gitignore
+tsconfig.json
+*.zip
+local-server.ts

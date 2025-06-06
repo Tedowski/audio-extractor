@@ -6,9 +6,9 @@ on:
       - main
 
 env:
-  AWS_REGION: ${{ secrets.AWS_REGION }}
-  ECR_REPOSITORY: your-lambda-api
-  LAMBDA_FUNCTION: your-lambda-api
+  AWS_REGION: ${{ vars.AWS_REGION }}
+  ECR_REPOSITORY: audio-extractor
+  LAMBDA_FUNCTION: audio-extractor
 
 jobs:
   deploy:
